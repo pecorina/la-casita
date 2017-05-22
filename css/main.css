@@ -1,42 +1,50 @@
 
-#circle { 
+
+#square2 { 
+	position: relative;
+	top: 10px;
 	width: 100px; 
 	height: 100px; 
-	background: red; 
-	-moz-border-radius: 50%; 
-	-webkit-border-radius: 50%; 
-	border-radius: 50px;
-	float: right; 
+	background: blue; 
+	left: 10px;
+	bottom: -100px;
 }
-#contendedor{
+#triangle-up { 
 	position: relative;
-	margin:10px;
-	width: 600px;
-	height: 600px;
-	
-
-}
-
- #triangle-up { 
- 	width: 0; 
+	bottom: -100px;
+ 	width: 0;  
  	height: 0; 
  	border-left: 200px solid transparent; 
  	border-right: 200px solid transparent; 
  	border-bottom: 100px solid green; 
  	float: right;
+    left: -300px;
 
  }
 
 #square { 
-	width: 400%; 
+	position: relative;
+	top: 200px;
+	width: 400px; 
 	height: 150px; 
 	background: green; 
 	float: right;
+	right: -100px;
 } 
+#square2 { 
+	position: relative;
+	top: 300px;
+	width: 100px; 
+	height: 100px; 
+	background: blue; 
+	float: right;
+	right: -100px;
+}
 #heart { 
-	position: absolute; 
+	position: relative; 
 	width: 100px; 
 	height: 90px; 
+	float: right;
 	} 
 #heart:before, #heart:after { 
 	position: absolute; 
@@ -45,7 +53,7 @@
 	top: 0; 
 	width: 50px; 
 	height: 80px; 
-	background: red; 
+	background: green; 
 	-moz-border-radius: 50px 50px 0 0; 
 	border-radius: 50px 50px 0 0; 
 	-webkit-transform: rotate(-45deg); 
@@ -73,14 +81,18 @@
 	transform-origin :100% 100%; 
 } 
  #pacman { 
+ 	position: relative;
+ 	top: 70px;
  	width: 0px; 
  	height: 0px; 
- 	border-right: 60px solid transparent; 
- 	border-top: 60px solid red; 
- 	border-left: 60px solid red; 
- 	border-bottom: 60px solid red; 
- 	border-top-left-radius: 60px; 
- 	border-top-right-radius: 60px; 
- 	border-bottom-left-radius: 60px; 
- 	border-bottom-right-radius: 60px;
+ 	border-right: 200px solid transparent; 
+ 	border-top: 200px solid red; 
+ 	border-left: 200px solid red; 
+ 	border-bottom: 200px solid red; 
+ 	border-top-left-radius: 200px; 
+ 	border-top-right-radius: 200px; 
+ 	border-bottom-left-radius: 200px; 
+ 	border-bottom-right-radius: 200px;
+ 	left: 100px;
  }
+ 
