@@ -1,14 +1,5 @@
 
 
-#square2 { 
-	position: relative;
-	top: 10px;
-	width: 100px; 
-	height: 100px; 
-	background: blue; 
-	left: 10px;
-	bottom: -100px;
-}
 #triangle-up { 
 	position: relative;
 	bottom: -100px;
