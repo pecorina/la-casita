@@ -1,77 +1,52 @@
-#triangle-up { 
-	position: relative;
-	bottom: -100px;
- 	width: 0;  
- 	height: 0; 
- 	border-left: 200px solid transparent; 
- 	border-right: 200px solid transparent; 
- 	border-bottom: 100px solid green; 
- 	float: right;
-    left: -300px;
- }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-#square { 
+.contenedor{
 	position: relative;
-	top: 200px;
+	background-color: #03FCCB;
+	height: 600px;
+	width: 1000px;
+}
+
+.square { 
+	position: relative;
 	width: 400px; 
 	height: 150px; 
-	background: green; 
+	background: #FC8303; 
 	float: right;
-	right: -100px;
-} 
-#heart { 
-	position: relative; 
-	width: 100px; 
-	height: 90px; 
-	float: right;
-	} 
-#heart:before, #heart:after { 
-	position: absolute; 
-	content: ""; 
-	left: 50px; 
-	top: 0; 
-	width: 50px; 
-	height: 80px; 
-	background: green; 
-	-moz-border-radius: 50px 50px 0 0; 
-	border-radius: 50px 50px 0 0; 
-	-webkit-transform: rotate(-45deg); 
-	-moz-transform: rotate(-45deg); 
-	-ms-transform: rotate(-45deg); 
-	-o-transform: rotate(-45deg); 
-	transform: rotate(-45deg); 
-	-webkit-transform-origin: 0 100%; 
-	-moz-transform-origin: 0 100%; 
-	-ms-transform-origin: 0 100%; 
-	-o-transform-origin: 0 100%; 
-	transform-origin: 0 100%; 
-	} 
-#heart:after { 
-	left: 0; 
-	-webkit-transform: rotate(45deg); 
-	-moz-transform: rotate(45deg); 
-	-ms-transform: rotate(45deg); 
-	-o-transform: rotate(45deg); 
-	transform: rotate(45deg); 
-	-webkit-transform-origin: 100% 100%; 
-	-moz-transform-origin: 100% 100%; 
-	-ms-transform-origin: 100% 100%; 
-	-o-transform-origin: 100% 100%; 
-	transform-origin :100% 100%; 
-} 
- #pacman { 
- 	position: relative;
- 	top: 70px;
- 	width: 0px; 
- 	height: 0px; 
- 	border-right: 200px solid transparent; 
- 	border-top: 200px solid red; 
- 	border-left: 200px solid red; 
- 	border-bottom: 200px solid red; 
- 	border-top-left-radius: 200px; 
- 	border-top-right-radius: 200px; 
- 	border-bottom-left-radius: 200px; 
- 	border-bottom-right-radius: 200px;
- 	left: 100px;
+	right: 100px;
+	bottom: -360px;
+	left: -50px;
+}
+ #trianglo{ 
+ 	right: 100px;
+ 	top: 200px;
+ 	float: right;
+ 	border-left: 300px; 
+ 	border-right: 300px; 
+ 	border-bottom: 100px; 
+ 	background-color: #FC8303;
+ } 
+.pasto{
+    width: 1000px; 
+    height: 100px;
+    right: 0;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    background-color: green;
  }
- 
+ .sol { 
+ 	position: absolute;
+ 	width: 100px; 
+ 	height: 100px; 
+ 	left: 30px;
+ 	top: 30px;
+ 	background: yellow; 
+ 	-moz-border-radius: 50px; 
+ 	-webkit-border-radius: 50px; 
+ 	border-radius: 100px; 
+ }
