@@ -13,36 +13,73 @@
 
 .square { 
 	position: relative;
-	width: 400px; 
-	height: 150px; 
-	background: #FC8303; 
-	float: right;
-	right: 100px;
-	bottom: -360px;
-	left: -50px;
+    width: 442px;
+    height: 180px;
+    background: #FC8303;
+    float: right;
+    right: 100px;
+    bottom: -330px;
+    left: -52px;
 }
- #trianglo{ 
- 	right: 100px;
- 	top: 200px;
- 	float: right;
- 	border-left: 300px; 
- 	border-right: 300px; 
- 	border-bottom: 100px; 
- 	background-color: #FC8303;
- } 
+ .techo {     
+    border-bottom: 159px solid red;
+    border-left: 234px solid transparent;
+    border-right: 234px solid transparent;
+    height: 6px;
+    width: 247px;
+    float: left;
+    bottom: -171px;
+    left: 493px;
+    position: relative;
+}
+.puerta{
+	width: 100px;
+    height: 150px;
+    left: 558px;
+    bottom: -360px;
+    background-color: yellow;
+    position: relative;
+}
+.chimenea{
+    width: 48px;
+    height: 86px;
+    left: 807px;
+    bottom: 55px;
+    background-color: #a05d07;
+    position: relative;
+}
+.humo { 
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: -32px;
+    top: -90px;
+    background: #adad7d;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100px;
+ }
+.ventana{
+    width: 170px;
+    height: 92px;
+    left: 725px;
+    bottom: -266px;
+    background-color: yellow;
+    position: relative;
+}
 .pasto{
     width: 1000px; 
     height: 100px;
-    right: 0;
-    bottom: 0px;
+    right: 0px;
+    bottom: -600px;
     left: 0px;
-    position: absolute;
+    position: relative;
     background-color: green;
  }
  .sol { 
  	position: absolute;
- 	width: 100px; 
- 	height: 100px; 
+ 	width: 200px; 
+ 	height: 200px; 
  	left: 30px;
  	top: 30px;
  	background: yellow; 
