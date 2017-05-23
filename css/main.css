@@ -14,13 +14,13 @@
     position: relative; 
     width: 100px; 
     height: 234x; 
-    left: 679px;
+    left: 0px;
 } 
 #heart:before, #heart:after { 
     position: absolute; 
     content: ""; 
     left: 50px; 
-    top: 400px; 
+    top: 33px; 
     width: 50px; 
     height: 80px; 
     background: red; 
